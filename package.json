@@ -1,0 +1,28 @@
+{
+  "name": "aocrobot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "_dev": "next dev --experimental-https",
+    "dev": "next dev",
+    "start": "node server.js",
+    "build": "next build",
+    "_start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "next": "^14.2.31",
+    "puppeteer": "^24.16.2",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.7.2",
+    "@swc/core": "^1.11.21"
+  },
+  "description": "act & robot api",
+  "main": "server.js",
+  "author": "lydong",
+  "license": "ISC"
+}
